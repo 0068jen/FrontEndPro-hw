@@ -2,6 +2,8 @@
 
 let name = prompt('Whats your name?');
 
+let isSee = confirm(`${name}, do you want to see the greeting?`);
 
-
-alert(`Hello, ${name}! How are you?`);
+if (isSee) {
+    alert(`Hello, ${name}! How are you?`);
+}
