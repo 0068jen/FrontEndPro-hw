@@ -2,4 +2,4 @@
 
 За допомогою prompt запитати ім'я користувача.
 За допомогою alert вивести "Hello, John! How are you?" , де John це те, що ввів користувач
-Дз здавати окремою гілкою в Git# FrontEndPro-hw/
+Дз здавати окремою гілкою в Git# FrontEndPro-hw.
