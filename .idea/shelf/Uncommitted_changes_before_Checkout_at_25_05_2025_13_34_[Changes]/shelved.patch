@@ -1,0 +1,66 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># FrontEndPro-hw
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 17d784e755f6d65bc5e8925f13343ce91bf55979)
++++ b/README.md	(date 1748162608297)
+@@ -1,1 +1,8 @@
+-# FrontEndPro-hw
+\ No newline at end of file
++Зробіть просту сторінку, де при завантаженні користувача просять ввести ім’я та підтвердити, чи хоче він бачити привітання. Відповідно до відповіді — виводьте alert() або нічого не робіть.
++
++Для виконання ДЗ треба використовувати
++
++alert
++confirm
++prompt
++змінні (є в файлах до уроку)
+\ No newline at end of file
+Index: js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/script.js b/js/script.js
+new file mode 100644
+--- /dev/null	(date 1748168548575)
++++ b/js/script.js	(date 1748168548575)
+@@ -0,0 +1,13 @@
++    'use strict';
++
++    var sign = prompt("What's your sign?");
++
++    if (sign.toLowerCase() == "scorpio") {
++        alert("Wow! I'm a Scorpio too!");
++    }
++
++    // есть множество способов использовать prompt
++    var sign = window.prompt(); // открывается пустое окошко с запросом ввода текста
++    var sign = prompt(); //  открывается пустое окошко с запросом ввода текста
++    var sign = window.prompt("Are you feeling lucky"); // открывается окошко с текстом "Are you feeling lucky"
++    var sign = window.prompt("Are you feeling lucky", "sure"); // открывается окошко с текстом "Are you feeling lucky" и значением по умолчанию "sure"
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+new file mode 100644
+--- /dev/null	(date 1748168548591)
++++ b/index.html	(date 1748168548591)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>homework5</title>
++</head>
++<body>
++<script src="./js/script.js"></script>
++</body>
++</html>
+\ No newline at end of file

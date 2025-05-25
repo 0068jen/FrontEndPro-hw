@@ -1,0 +1,47 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 0e3937a046b3cabd4b25280e3e65e545b002b98a)
++++ b/index.html	(date 1748169296897)
+@@ -1,10 +1,10 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-  <meta charset="UTF-8">
+-  <title>Title</title>
++    <meta charset="UTF-8">
++    <title>homework5</title>
+ </head>
+ <body>
+-
++<script src="./js/script.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># FrontEndPro-hw
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 0e3937a046b3cabd4b25280e3e65e545b002b98a)
++++ b/README.md	(date 1748169296884)
+@@ -1,1 +1,8 @@
+-# FrontEndPro-hw
+\ No newline at end of file
++Зробіть просту сторінку, де при завантаженні користувача просять ввести ім’я та підтвердити, чи хоче він бачити привітання. Відповідно до відповіді — виводьте alert() або нічого не робіть.
++
++Для виконання ДЗ треба використовувати
++
++alert
++confirm
++prompt
++змінні (є в файлах до уроку)
+\ No newline at end of file
