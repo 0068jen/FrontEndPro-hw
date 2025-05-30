@@ -7,11 +7,11 @@
 Після збору даних:
 
 Виведи alert з результатом:
-Copy code
+
 Привіт, [ім’я]!
 Твій вік: [вік]
 Твій статус: [участь підтверджено / відмовився]
 Виведи в console.log() всі змінні разом із їх типами:
-Copy code
+
 console.log("Ім'я:", userName, typeof userName);
 console.log("Вік:", userAge, typeof userAge);
