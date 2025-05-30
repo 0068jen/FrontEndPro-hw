@@ -9,10 +9,8 @@ const age = 18;
 console.log(typeof age);
 
 //this variable is for understanding whether the user is verified
-let verificationSuccessful = true;
-console.log(typeof verificationSuccessful);
-let verificationFailed = false;
-console.log(typeof verificationFailed);
+let isVerified = false;
+console.log(typeof isVerified);
 
 //this variable for the registration date
 const dateRegistration = `12.12.2020`;
@@ -23,11 +21,8 @@ const bigIntNumberUser = 123855n;
 console.log(typeof bigIntNumberUser);
 
 //this variable for the promo code
-const noPromo = null;
-console.log(typeof noPromo);
-let yesPromo = `HkOJHE1`;
-console.log(typeof yesPromo);
-
+const promo = null;
+console.log(typeof promo);
 
 //this variable for the fallback name
 let reservName;
@@ -45,13 +40,21 @@ Bonus: ${bonusNumber}
 `);
 
 console.log(`
-verification: ${verificationSuccessful}; 
-Promo: ${yesPromo}; 
+verification: ${isVerified}; 
+Promo: ${promo}; 
 Date Registration: ${dateRegistration}
 `);
 
+//this variable for the promo code
+promoCode = 'HkOJHE1';
+console.log(typeof promoCode);
+
+//this variable is for understanding whether the user is verified
+isVerified = true;
+console.log(typeof isVerified);
+
 console.log(`
-Verification: ${verificationFailed}; 
-Promo: ${noPromo}; 
+Verification: ${isVerified}; 
+Promo: ${promo}; 
 Reserv Name: ${reservName}
 `);
