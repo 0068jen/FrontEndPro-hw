@@ -21,8 +21,7 @@ const bigIntNumberUser = 123855n;
 console.log(typeof bigIntNumberUser);
 
 //this variable for the promo code
-const promo = null;
-console.log(typeof promo);
+let promoCode = null;
 
 //this variable for the fallback name
 let reservName;
@@ -41,7 +40,7 @@ Bonus: ${bonusNumber}
 
 console.log(`
 verification: ${isVerified}; 
-Promo: ${promo}; 
+Promo: ${promoCode}; 
 Date Registration: ${dateRegistration}
 `);
 
@@ -55,6 +54,6 @@ console.log(typeof isVerified);
 
 console.log(`
 Verification: ${isVerified}; 
-Promo: ${promo}; 
+Promo: ${promoCode}; 
 Reserv Name: ${reservName}
 `);
