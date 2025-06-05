@@ -9,4 +9,4 @@ const num3 = +prompt('Say the third number');
 const averageNum = (num1 + num2 + num3) / 3;
 
 //output a message with the average value
-alert(`the average value of the given nбumbers is ${averageNum}`);
+alert(`the average value of the given numbers is ${averageNum}`);
