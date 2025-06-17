@@ -1,5 +1,5 @@
 Реалізуйте функцію generateKey(length, characters), яка повертає рядок випадкових символів із набору characters довжиною length.
-
+Приклад:
 ```
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
