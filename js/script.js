@@ -28,4 +28,4 @@ if (filteredNum.length === 0) {
     filteredNum = null
 };
 
-console.log(filteredNum)
+console.log(filteredNum);
